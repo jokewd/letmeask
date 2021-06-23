@@ -1,0 +1,100 @@
+#page-room{
+	header{
+		padding: 2rem;
+		border-bottom: 1px solid #e2e2e2;
+
+		.content{
+			max-width: 90%;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			>img{
+				max-height: 3rem;
+			}
+		}
+	}
+
+	main{
+		max-width: 70%;
+		margin: 0 auto;
+
+		.room-title{
+			margin: 3rem 0 2rem;
+			display: flex;
+			align-items: center;
+
+			h1{
+				font-family: 'Poppins', sans-serif;
+				font-size: 2em;
+				color: #29292e;
+			}
+
+			span{
+				padding: .5rem 1rem;
+				margin-left: 1rem;
+				font-size: 1em;
+				font-weight: 500;
+				color: #fff;
+				background-color: #e559f9;
+				border-radius: .5rem;
+			}
+		}
+
+		form{
+			textarea{
+				width: 100%;
+				min-height: 8rem;
+				max-height: 12rem;
+				padding: 1rem;
+				background-color: #fefefe;
+				border: 0;
+				border-radius: .5rem;
+				box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .04);
+				resize: vertical;
+			}
+
+			.form-footer{
+				margin-top: 1rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+
+				.user-info{
+					display: flex;
+					align-items: center;
+
+					img{
+						width: 2rem;
+						height: 2rem;
+						border-radius: 50%;
+					}
+
+					> span{
+						margin-left: .5rem;
+						color: #29292e;
+						font-size: 1em;
+						font-weight: 500;
+					}
+				}
+
+				span{
+					font-size: 1em;
+					color: #737380;
+					font-weight: 500;
+
+					button{
+						color: #835afd;
+						font-size: 1em;
+						font-weight: 500;
+						text-decoration: underline;
+						background: transparent;
+						border: 0;
+						cursor: pointer;
+					}
+				}
+			}
+		}
+	}
+}
