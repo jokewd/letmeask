@@ -13,6 +13,14 @@
 			>img{
 				max-height: 3rem;
 			}
+
+			.options{
+				display: flex;
+
+				button{
+					margin-left: 1rem;
+				}
+			}
 		}
 	}
 
@@ -95,6 +103,10 @@
 					}
 				}
 			}
+		}
+
+		.question-list{
+			margin-top: 2rem;
 		}
 	}
 }
